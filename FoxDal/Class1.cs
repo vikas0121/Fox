@@ -8,5 +8,6 @@ namespace FoxDal
 {
     public class Class1
     {
+
     }
 }
