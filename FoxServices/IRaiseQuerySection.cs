@@ -7,9 +7,9 @@ using System.Text;
 
 namespace FoxServices
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IRaiseQuery" in both code and config file together.
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IRaiseQuerySection" in both code and config file together.
     [ServiceContract]
-    public interface IRaiseQuery
+    public interface IRaiseQuerySection
     {
         [OperationContract]
         void DoWork();
