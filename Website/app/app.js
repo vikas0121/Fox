@@ -2,9 +2,9 @@
 angular.module("GeekChacha", ["ngRoute", "ui.bootstrap", "ui.filters"]).config(["$routeProvider",
   function ($routeProvider) {
       $routeProvider.
-          when('/MotorInspection/PB/InspectionUnderwriting', {
-              templateUrl: 'views/InspectionUnderwriting.html',
-              controller: 'InspectionUnderwritingCtrl'
+          when('/GeekChacha/index', {
+              templateUrl: 'views/index.html',
+              controller: 'indexCtrl'
           })
           .when('/MotorInspection/PB/InspectionDashboard', {
               templateUrl: 'views/InspectionDashboard.html',
