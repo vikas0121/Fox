@@ -13,12 +13,13 @@ namespace FoxService
     // NOTE: In order to launch WCF Test Client for testing this service, please select InterviewSection.svc or InterviewSection.svc.cs at the Solution Explorer and start debugging.
     public class InterviewSection : IInterviewSection
     {
-        public List<InterviewQuestion> DashbaordQuestions()
+        public List<Category> DashbaordData()
         {
             try
             {
-                List<InterviewQuestion> questions = InterviewSectionDal.GetDashbaordQuestions();
-                return questions;
+                var objSectionDal = new InterviewSectionDal();
+                List<Category> dashboardData = objSectionDal.GetDashbaordData();
+                return dashboardData;
 
             }
             catch (Exception)
@@ -32,7 +33,8 @@ namespace FoxService
         {
             try
             {
-                InterviewQuestion objQuestion = InterviewSectionDal.GetQuestionById(questionId);
+                var objSectionDal = new InterviewSectionDal();
+                InterviewQuestion objQuestion = objSectionDal.GetQuestionById(questionId);
                 return objQuestion;
             }
             catch (Exception)

@@ -10,8 +10,8 @@ namespace FoxService
     public interface IInterviewSection
     {
         [OperationContract]
-        [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "DashbaordQuestions")]
-        List<InterviewQuestion> DashbaordQuestions();
+        [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "DashbaordData")]
+        List<Category> DashbaordData();
 
         [OperationContract]
         [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "GetQuestionById")]
