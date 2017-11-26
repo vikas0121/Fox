@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxServices", "FoxServices\FoxServices.csproj", "{610C214B-1CE9-4305-8A38-86DD1F17EBCE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxDal", "FoxDal\FoxDal.csproj", "{3DB5B95F-A4C6-4EE2-A245-74673B04775A}"
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "http://localhost:51131", "{A93004A1-4B1B-464B-8A1F-9233856DC12D}"
@@ -35,16 +33,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{36F1
 		..\sql\languagetable.sql = ..\sql\languagetable.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyLayer", "PropertyLayer\PropertyLayer.csproj", "{FE841D0A-E984-40D7-8110-7F84EFD5050F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxService", "FoxService\FoxService.csproj", "{C030B012-4DB4-4385-BF02-6E2536C6B33B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{610C214B-1CE9-4305-8A38-86DD1F17EBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{610C214B-1CE9-4305-8A38-86DD1F17EBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{610C214B-1CE9-4305-8A38-86DD1F17EBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{610C214B-1CE9-4305-8A38-86DD1F17EBCE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3DB5B95F-A4C6-4EE2-A245-74673B04775A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3DB5B95F-A4C6-4EE2-A245-74673B04775A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DB5B95F-A4C6-4EE2-A245-74673B04775A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,6 +51,14 @@ Global
 		{A93004A1-4B1B-464B-8A1F-9233856DC12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A93004A1-4B1B-464B-8A1F-9233856DC12D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{A93004A1-4B1B-464B-8A1F-9233856DC12D}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FE841D0A-E984-40D7-8110-7F84EFD5050F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE841D0A-E984-40D7-8110-7F84EFD5050F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE841D0A-E984-40D7-8110-7F84EFD5050F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE841D0A-E984-40D7-8110-7F84EFD5050F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C030B012-4DB4-4385-BF02-6E2536C6B33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C030B012-4DB4-4385-BF02-6E2536C6B33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C030B012-4DB4-4385-BF02-6E2536C6B33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C030B012-4DB4-4385-BF02-6E2536C6B33B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,0 @@
-F:\Vikas\Projects\Fox\FoxServices\bin\Debug\FoxServices.dll.config
-F:\Vikas\Projects\Fox\FoxServices\bin\Debug\FoxServices.dll
-F:\Vikas\Projects\Fox\FoxServices\bin\Debug\FoxServices.pdb
-F:\Vikas\Projects\Fox\FoxServices\obj\Debug\FoxServices.csprojResolveAssemblyReference.cache
-F:\Vikas\Projects\Fox\FoxServices\obj\Debug\FoxServices.dll
-F:\Vikas\Projects\Fox\FoxServices\obj\Debug\FoxServices.pdb

@@ -1,0 +1,10 @@
+F:\Vikas\Projects\Fox\FoxService\obj\Debug\FoxService.csprojResolveAssemblyReference.cache
+F:\Vikas\Projects\Fox\FoxService\bin\FoxService.dll.config
+F:\Vikas\Projects\Fox\FoxService\bin\FoxService.dll
+F:\Vikas\Projects\Fox\FoxService\bin\FoxService.pdb
+F:\Vikas\Projects\Fox\FoxService\bin\FoxDal.dll
+F:\Vikas\Projects\Fox\FoxService\bin\PropertyLayer.dll
+F:\Vikas\Projects\Fox\FoxService\bin\FoxDal.pdb
+F:\Vikas\Projects\Fox\FoxService\bin\PropertyLayer.pdb
+F:\Vikas\Projects\Fox\FoxService\obj\Debug\FoxService.dll
+F:\Vikas\Projects\Fox\FoxService\obj\Debug\FoxService.pdb

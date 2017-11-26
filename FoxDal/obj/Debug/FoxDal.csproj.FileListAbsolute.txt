@@ -1,0 +1,7 @@
+F:\Vikas\Projects\Fox\FoxDal\bin\Debug\FoxDal.dll
+F:\Vikas\Projects\Fox\FoxDal\bin\Debug\FoxDal.pdb
+F:\Vikas\Projects\Fox\FoxDal\obj\Debug\FoxDal.dll
+F:\Vikas\Projects\Fox\FoxDal\obj\Debug\FoxDal.pdb
+F:\Vikas\Projects\Fox\FoxDal\bin\Debug\PropertyLayer.dll
+F:\Vikas\Projects\Fox\FoxDal\bin\Debug\PropertyLayer.pdb
+F:\Vikas\Projects\Fox\FoxDal\obj\Debug\FoxDal.csprojResolveAssemblyReference.cache
