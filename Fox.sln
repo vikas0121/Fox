@@ -28,6 +28,13 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "http://localhost
 		SlnRelativePath = "Website\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{36F1A624-293C-4ECE-8C16-D0D9E280B135}"
+	ProjectSection(SolutionItems) = preProject
+		..\sql\INTERVIEWSEC.sql = ..\sql\INTERVIEWSEC.sql
+		..\sql\interviewsection.sql = ..\sql\interviewsection.sql
+		..\sql\languagetable.sql = ..\sql\languagetable.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
