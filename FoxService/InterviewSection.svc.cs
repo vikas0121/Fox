@@ -28,20 +28,5 @@ namespace FoxService
                 throw;
             }
         }
-
-        public InterviewQuestion GetQuestionById(int questionId)
-        {
-            try
-            {
-                var objSectionDal = new InterviewSectionDal();
-                InterviewQuestion objQuestion = objSectionDal.GetQuestionById(questionId);
-                return objQuestion;
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-        }
     }
 }

@@ -12,9 +12,5 @@ namespace FoxService
         [OperationContract]
         [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "DashbaordData")]
         List<Category> DashbaordData();
-
-        [OperationContract]
-        [WebInvoke(Method = "GET", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "GetQuestionById")]
-        InterviewQuestion GetQuestionById(int questionId);
     }
 }
