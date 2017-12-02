@@ -28,5 +28,18 @@ namespace FoxService
                 throw;
             }
         }
+
+
+        public List<InterviewQuestion> InterviewQuestionsById(string id)
+        {
+            try
+            {
+
+            }
+            catch (Exception)
+            {                
+                throw;
+            }
+        }
     }
 }

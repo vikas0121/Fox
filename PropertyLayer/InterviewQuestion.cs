@@ -13,5 +13,6 @@ namespace PropertyLayer
         public DateTime CreatedOn { get; set; }
         public byte IsActive { get; set; }
         public string Tag { get; set; }
+        public int Score { get; set; }
     }
 }
